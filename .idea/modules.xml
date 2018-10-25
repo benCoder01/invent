@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/invent.iml" filepath="$PROJECT_DIR$/invent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/invent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/invent_main.iml" group="invent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/invent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/invent_test.iml" group="invent" />
+    </modules>
+  </component>
+</project>
