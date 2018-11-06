@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @RestController("deviceTypes")
 @RequestMapping("/deviceTypes")
+@CrossOrigin
 public class DeviceTypeController {
 
     private final DeviceTypeService deviceTypeService;

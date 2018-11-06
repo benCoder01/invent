@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController("location")
 @RequestMapping("/locations")
+@CrossOrigin
 public class LocationController {
 
     private final LocationService locationService;

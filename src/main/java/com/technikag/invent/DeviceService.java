@@ -86,7 +86,7 @@ public class DeviceService {
     }
 
     static DeviceDTO toDTO(Device d) {
-        return new DeviceDTO(d.getId(), d.getName(), LocationService.toDTO(d.getLocation()), d.getComment());
+        return new DeviceDTO(d.getId(), d.getName(), LocationService.toDTO(d.getLocation()), d.getComment(), DeviceTypeService.toDTO(d.getType()));
     }
 
     class DeviceNotFoundException extends Exception {}

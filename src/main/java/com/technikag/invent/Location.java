@@ -13,6 +13,8 @@ public class Location {
     @OneToMany
     private List<Device> packinglist;
 
+    public Location() {}
+
     public Location(String name, Optional<List<Device>> packinglist) {
         this.name = name;
         this.setPackinglist(packinglist);

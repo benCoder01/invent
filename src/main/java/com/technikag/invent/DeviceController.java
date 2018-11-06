@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @RestController("devices")
 @RequestMapping("/devices")
+@CrossOrigin
 public class DeviceController {
 
     private final DeviceService deviceService;

@@ -11,7 +11,7 @@ public class Device {
     private int id;
 
     @ManyToOne
-    private final DeviceType type;
+    private DeviceType type;
 
     private String name;
 
@@ -19,6 +19,8 @@ public class Device {
     private Location location;
 
     private String comment;
+
+    public Device() {}
 
     public Device(DeviceType type, String name, Location location, String comment) {
         this.type = type;

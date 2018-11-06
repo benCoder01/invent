@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class DeviceType {
 
     @Id
-    private final String id;
+    private String id;
 
     private String name;
 
@@ -20,6 +20,8 @@ public class DeviceType {
     public String getName() {
         return name;
     }
+
+    public DeviceType() {}
 
     public DeviceType(String id, String name) {
         this.id = id;
